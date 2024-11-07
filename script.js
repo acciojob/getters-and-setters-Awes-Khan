@@ -2,7 +2,8 @@
 class Person {
 	constructor(name, age){
 		this.name = name;
-		this.age = age;		
+		this.age = age;	
+		this._age = age;
 	}
 	name(){
 		return this.name;
