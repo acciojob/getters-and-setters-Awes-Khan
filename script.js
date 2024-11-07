@@ -1,14 +1,14 @@
 //complete this code
 class Person {
 	constructor(name, age){
-		this._name = name;
-		this._age = age;		
+		this.name = name;
+		this.age = age;		
 	}
 	name(){
-		return this._name;
+		return this.name;
 	}
 	age(age){
-		this._age = age;
+		this.age = age;
 	}
 }
 
@@ -17,7 +17,7 @@ class Student extends Person {
 		super(name, age);
 	}
 	study(){
-		console.log(this._name + " is studying");
+		console.log(this.name + " is studying");
 	}
 }
 
@@ -26,7 +26,7 @@ class Teacher extends Person {
 		super(name, age);
 	}
 	teach(){
-		console.log(this._name + " is teaching");
+		console.log(this.name + " is teaching");
 	}
 }
 
